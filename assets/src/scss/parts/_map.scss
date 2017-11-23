@@ -1,0 +1,41 @@
+.map {
+
+  &__tit {
+    @include creative-title;
+  }
+  &__sub {
+    @include creative-subtitle;
+  }
+  &__address {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include creative-subtitle;
+  }
+}
+
+.containermap {
+  margin-bottom: 50px;
+  height: 850px;
+}
+
+#object,
+#message,
+#name2,
+#email1 {
+  color: #cccccc;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+#message {
+  height: 200px;
+}
+
+.adress__sub {
+  font-size: 12px;
+}

@@ -1,0 +1,13 @@
+.benefits {
+  &__title {
+    @include creative-title;
+
+  }&__title::before{
+  @include green-before;
+
+     }
+  &__subtitle {
+    @include creative-subtitle;
+    text-align: center;
+  }
+}

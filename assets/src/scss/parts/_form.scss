@@ -1,0 +1,69 @@
+.form {
+  background-color: #19bd9a;
+  height: 431px;
+  background-size: cover;
+  margin-bottom: 50px;
+  &__title {
+    @include creative-title;
+    color: white;
+  }
+  &__btn {
+    width: 165px;
+    height: 49px;
+    background-color: #ffffff;
+    color: #19bd9a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__tit {
+    padding-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__connect--white {
+    background-color: white;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  &__rectangle--title {
+    @include creative-title;
+  }
+  &__rectangle--sub {
+    @include creative-subtitle;
+    text-align: left;
+
+  }&__control{
+  height: 200px;
+     }
+}
+.btn{
+  width: 135px;
+  height: 50px;
+  background-color: #7beec7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+#inputEmail{
+width: 350px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.msg{
+  height: 200px;
+}

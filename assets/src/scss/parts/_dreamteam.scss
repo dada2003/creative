@@ -1,0 +1,21 @@
+.dreamteam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    @include creative-title;
+    text-align: center;
+  }
+  &__title::before {
+    @include green-before;
+  }
+  &__subtitle {
+    @include creative-subtitle;
+    text-align: center;
+  }
+  &__grid--item {
+    padding-bottom: 30px;
+  }
+
+}

@@ -1,0 +1,12 @@
+.about {
+  &__title {
+    @include creative-title;
+    text-align: left;
+
+  }
+  &__title:before
+  {
+   @include green-before;
+
+  }
+}

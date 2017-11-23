@@ -1,0 +1,30 @@
+.header {
+  height: 80vh;
+  background-image: url(../../../img/bunner.png);
+  background-size: cover;
+  margin-bottom: 50px;
+  &__logo {
+    @include creative-title;
+  }
+  &__main--title {
+    @include creative-title;
+    font-size: 36px;
+  }
+  &__main--subtitle {
+    width: 110px;
+    height: 13px;
+  }
+  &__links {
+    color: #60606e;
+  }&__links:hover{
+       text-decoration: none;
+       color: #60606e;
+     }
+}
+.col-lg-12 {
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

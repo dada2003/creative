@@ -1,0 +1,21 @@
+.partners {
+
+  &__slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__labels {
+    height: 300px;
+
+  }
+  &__btn {
+    width: 99px;
+    height: 29px;
+    background-color: #7beec7;
+    color: white;
+  }
+
+}
+

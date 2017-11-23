@@ -1,0 +1,23 @@
+.readmore{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: #efeff0;
+  &__subtitle{
+    @include creative-subtitle;
+  }
+  &__btn{
+    width: 165px;
+    height: 50px;
+    background-color: #7beec7;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+
+}
