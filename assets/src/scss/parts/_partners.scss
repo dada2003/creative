@@ -7,7 +7,16 @@
     align-items: center;
   }
   &__labels {
-    height: 300px;
+    list-style: none;
+    padding: 0;
+    //height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__labels--items {
 
   }
   &__btn {
@@ -17,5 +26,11 @@
     color: white;
   }
 
+}
+.pl{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
